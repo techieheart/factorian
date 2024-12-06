@@ -1,0 +1,85 @@
+/* Extra small devices (phones, < 576px) */
+@media (max-width: 575.98px) {
+  /* Your CSS styles for small phones */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Your CSS styles for landscape phones */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  h3 {
+    font-size: 17px !important;
+  }
+  .header__top--area {
+    display: none;
+  }
+
+  .navbar {
+    padding: 15px 0 !important;
+  }
+
+  .navbar-nav {
+    display: flex !important;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .single__slide--item {
+    height: 390px !important;
+  }
+  .single__slide--item h2 {
+    font-size: 26px !important;
+  }
+
+  .single__slide--item p {
+    font-size: 14px !important;
+  }
+
+  .factorian__btn {
+    padding: 10px 15px !important;
+    font-size: 12px !important;
+  }
+
+  p {
+    font-size: 12px !important;
+    line-height: 22px !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  h3 {
+    font-size: 20px !important;
+  }
+  .header__top--area a {
+    font-size: 12px;
+  }
+
+  .single__slide--item h2 {
+    font-size: 36px !important;
+  }
+
+  .single__slide--item p {
+    font-size: 18px !important;
+  }
+
+  .single__small--service-item h4 {
+    font-size: 16px !important;
+  }
+
+  .single__small--service-item p {
+    font-size: 12px !important;
+    line-height: 18px;
+  }
+
+  .single__small--service-item {
+    margin-bottom: 10px !important;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Your CSS styles for large desktops */
+}
